@@ -1,5 +1,4 @@
-// 赤いBOXを下から上へスライドする(隠れる)
-// 2000 → 表示速度
 $(function(){
-  $('.box1').slideUp(2000);
+  $('.box1').show();
+  $('.box1').css({'background-color':'#0000FF'});
 });
